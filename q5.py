@@ -5,8 +5,6 @@ def str_f(str):
         return str[0] + str_f(str[1:])
     else:
         return str_f(str[1:])
-print str_f("ab")
-print str_f("aabbdfscca")
-print str_f("aa")
+
 
 
